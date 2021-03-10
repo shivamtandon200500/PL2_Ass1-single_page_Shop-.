@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>PL-2 Assignment 1</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"> 
+  <meta name="robots" content="noindex,follow" />
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <div class="navigation">
+    <div class="navigation-left">
+      <a class="page-scroll" href="#clothes">Clothes</a>
+      <a class="page-scroll" href="#shoe">Shoes</a>
+      <a class="page-scroll" href="#access">Accessories</a>
+    </div>
+    <div class="navigation-center">
+      <!-- <img src="images/logo.png" alt=""> -->
+      <h2>SHIVAM</h2>
+    </div>
+    <div class="navigation-right">
+      <a href="#"><img src="images/shopping-bag.png" alt=""></a>
+      <button class="login-btn" href="#">Login</button>
+    </div>
+  </div>
+
+  <!-- Slider Wrapper -->
+  <div class="css-slider-wrapper" id="clothes">
+    <input type="radio" name="slider" class="slide-radio1" checked id="slider_1">
+    <input type="radio" name="slider" class="slide-radio2" id="slider_2">
+    <input type="radio" name="slider" class="slide-radio3" id="slider_3">
+    <input type="radio" name="slider" class="slide-radio4" id="slider_4">
+
+    <!-- Slider Pagination -->
+    <div class="slider-pagination">
+      <label for="slider_1" class="page1"></label>
+      <label for="slider_2" class="page2"></label>
+      <label for="slider_3" class="page3"></label>
+      <label for="slider_4" class="page4"></label>
+    </div>
+
+    <!-- Slider #1 -->
+    <div class="slider slide-1">
+      <img src="images/model-1.png" alt="">
+      <div class="slider-content">
+        <h4>New Product</h4>
+        <h2>Denim Longline T-Shirt Dress With Split</h2>
+        <button type="button" class="buy-now-btn" name="button">₹1300</button>
+      </div>
+      <div class="number-pagination">
+        <span>1</span>
+      </div>
+    </div>
+
+    <!-- Slider #2 -->
+    <div class="slider slide-2">
+      <img src="images/model-2.png" alt="">
+      <div class="slider-content">
+        <h4>New Product</h4>
+        <h2>Denim Longline T-Shirt Dress With Split</h2>
+        <button type="button" class="buy-now-btn" name="button">₹1300</button>
+      </div>
+      <div class="number-pagination">
+        <span>2</span>
+      </div>
+    </div>
+
+    <!-- Slider #3 -->
+    <div class="slider slide-3">
+      <img src="images/model-3.png" alt="">
+      <div class="slider-content">
+        <h4>New Product</h4>
+        <h2>Denim Longline T-Shirt Dress With Split</h2>
+        <button type="button" class="buy-now-btn" name="button">₹1300</button>
+      </div>
+      <div class="number-pagination">
+        <span>3</span>
+      </div>
+    </div>
+
+    <!-- Slider #4 -->
+    <div class="slider slide-4">
+      <img src="images/model-4.png" alt="">
+      <div class="slider-content">
+        <h4>New Product</h4>
+        <h2>Denim Longline T-Shirt Dress With Split</h2>
+        <button type="button" class="buy-now-btn" name="button">₹1300</button>
+      </div>
+      <div class="number-pagination">
+        <span>4</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- cards -->
+  <div class="main" id="shoe" style="overflow: hidden;">
+    <h2 style="font-size: 32px !important; text-align: center; font-weight: normal;">Shoes</h2>
+    <ul class="cards">
+      <li data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="images/shoe1.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">₹3000</h2>
+            <p class="card_text">Etonic have created the Men’s G-SOK Golf Shoe using a waterproof leather</p>
+            <button class="btn card_btn">Buy Now</button>
+          </div>
+        </div>
+      </li>
+      <li data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+        class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="images/shoe2.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">₹3000</h2>
+            <p class="card_text">Shoes with soft EVA / latex on the bottom of the insole gives extra cushioning to the
+              heel.</p>
+            <button class="btn card_btn">Buy Now</button>
+          </div>
+        </div>
+      </li>
+      <li data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" 
+        class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="images/shoe3.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">₹3000</h2>
+            <p class="card_text">Designed with sustainability in mind,is made from at least 50% recycled content by
+              weight</p>
+            <button class="btn card_btn">Buy Now</button>
+          </div>
+        </div>
+      </li>
+      <li data-aos="flip-left" class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="images/shoe4.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">₹3000</h2>
+            <p class="card_text">A pair of round-toe black sneakers, has regular styling, lace-up detail</p>
+            <button class="btn card_btn">Buy Now</button>
+          </div>
+        </div>
+      </li>
+      <li data-aos="flip-up" class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="images/shoe5.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">₹3000</h2>
+            <p class="card_text">Sleek and supportive,Air Max Volley is designed to keep your feet comfortable</p>
+            <button class="btn card_btn">Buy Now</button>
+          </div>
+        </div>
+      </li>
+      <li data-aos="flip-right" class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="images/shoe6.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">₹3000</h2>
+            <p class="card_text">HYBRID: PUMA's combination of two of its best technologies: IGNITE foam and NRGY</p>
+            <button class="btn card_btn">Buy Now</button>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Accessories -->
+
+  <div class="main" id="access" style="overflow: hidden;">
+    <h2 style="font-size: 32px !important; text-align: center; font-weight: normal;">Accessories</h2>
+    <ul class="cards">
+      <li data-aos="fade-right" class="cards_item">
+        <div class="card">
+          <div class="card_image card_over">
+            <img src="images/ass1.jpg">
+            <button class="btn card_btn btn-over">Buy Now</button>
+            <div class="card_content">
+              <h2 class="card_title" style="text-align: center;">Glasses starting from ₹1000</h2>
+            </div>
+          </div>
+
+        </div>
+      </li>
+      <li data-aos="fade-up" class="cards_item">
+        <div class="card">
+          <div class="card_image card_over"><img src="images/ass2.jpg">
+            <button class="btn card_btn btn-over">Buy Now</button>
+            <div class="card_content">
+              <h2 class="card_title" style="text-align: center;">Bags starting from ₹1000</h2>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li data-aos="fade-left" class="cards_item">
+        <div class="card">
+          <div class="card_image card_over"><img src="images/ass3.jpg">
+            <button class="btn card_btn btn-over">Buy Now</button>
+            <div class="card_content">
+              <h2 class="card_title" style="text-align: center;">Watches starting from ₹1000</h2>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <footer>
+    <div class="footer_container">
+      <div class="logo">
+        <p>SHIVAM SHOWROOM </p>
+      </div>
+      <div class="social_media">
+        <a href="#"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+      </div>
+      <p>Shivam Showroom © 2020 All Rights Reserved.</p>
+    </div>
+  </footer>
+  <!--====== BACK TOP TOP PART START ======-->
+
+  <a href="#" class="back-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+
+  <!--====== BACK TOP TOP PART ENDS ======-->
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="js/app.js" charset="utf-8"></script>
+  <script src="https://use.fontawesome.com/42129b452b.js"></script>
+
+
+  <!-- ====== jquery js ======
+  <script src="js/modernizr-3.6.0.min.js"></script>
+  <script src="js/jquery-1.12.4.min.js"></script> -->
+  <!--====== Scrolling js ======-->
+  <script src="js/scrolling-nav.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script>
+    $(window).on("scroll", function() {
+      if($(window).scrollTop() > 50) {
+          $(".navigation").addClass("nav-active");
+      } else {
+          //remove the background property so it comes transparent again (defined in your css)
+        $(".navigation").removeClass("nav-active");
+      }
+    });
+  </script>
+
+</body>
+
+</html>
